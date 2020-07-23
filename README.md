@@ -204,6 +204,6 @@ To import all the libraries we need to install in console:
 5. pip install matplotlib
 6. pip install configparser.
 7. pip install os-sys.
-   8. pip install kears
-   9. pip install tensorflow
+8. pip install kears
+9. pip install tensorflow
 10. pip install theano
