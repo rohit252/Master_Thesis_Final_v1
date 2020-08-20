@@ -101,7 +101,7 @@ def load_images_from_folder(folder):
 #    print(set_list)
     for set_path in set_list:
         img = cv2.imread(os.path.join(folder,set_path),cv2.IMREAD_ANYCOLOR | cv2.IMREAD_ANYDEPTH)
-        red = img[:,:,2]
+        red = img[:,:,2] # extracting the red channel
         all_images.append(red)
     return np.array(all_images)
 
